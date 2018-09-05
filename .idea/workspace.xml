@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b63fddd0-a8fc-4df0-8b03-f686362c841c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/py/sortAlgorithm/Bubble.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/sortAlgorithm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/sortAlgorithm/insertSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/sortAlgorithm/shellSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/sortAlgorithm/Bubble.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/sortAlgorithm/Bubble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel-0.31.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/archive.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/archive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/bdist_wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/bdist_wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/egg2wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/egg2wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/metadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/metadata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/paths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/pep425tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/pep425tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/pkginfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/pkginfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/djbec.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/djbec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/ed25519py.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/ed25519py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/signatures/keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/tool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/tool/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/wininst2wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/wheel/wininst2wheel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,26 +42,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bubble.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bubble.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py/sortAlgorithm/Bubble.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertSort.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py/sortAlgorithm/insertSort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shellSort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py/sortAlgorithm/shellSort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,15 +94,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/py/test.py" />
         <option value="$PROJECT_DIR$/py/sortAlgorithm/Bubble.py" />
+        <option value="$PROJECT_DIR$/py/test.py" />
+        <option value="$PROJECT_DIR$/py/sortAlgorithm/insertSort.py" />
+        <option value="$PROJECT_DIR$/py/sortAlgorithm/shellSort.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="723" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -72,17 +129,28 @@
             <path>
               <item name="PyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
+              <item name="sortAlgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyProject" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/py" />
+      <recent name="$PROJECT_DIR$/py/sortAlgorithm" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -135,43 +203,110 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="723" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290735" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50119144" side_tool="true" weight="0.3290735" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988086" weight="0.32827586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3290735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49960285" visible="true" weight="0.32827586" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3448276" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290735" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/py/test.py</url>
+          <line>5</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/py/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py/sortAlgorithm/Bubble.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/sortAlgorithm/insertSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/sortAlgorithm/shellSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/sortAlgorithm/Bubble.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/sortAlgorithm/Bubble.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/sortAlgorithm/insertSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/sortAlgorithm/shellSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -10,8 +10,8 @@ import matplotlib.dates as mdate
 import pandas as pd
 from matplotlib.ticker import  FormatStrFormatter
 font = FontProperties(fname=r"c:\windows\fonts\simsun.ttc", size=14)
-a=[1,70,84,111,109,69,58,59,50,45,45,54,38,33,45,44,45,42,52,52,55,68,79,95,72,54,42,25]  #数据
-b=[1,7,5,6,5,5,4,3,4,4,5,5,5,5,4,5,5,4,4,4,4,5,5,5,5,4,3,2]
+a=[15,145,111,102,109,99,88,83,71,89,92,86,86,87,104,85,88,95,102,85,96,103,114,103,102,82,75,37]  #数据
+b=[1,10,7,7,7,7,6,6,5,6,6,6,6,6,7,6,6,6,7,6,6,7,8,7,7,5,5]
 l=[i for i in range(28)]
 
 # plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
@@ -33,7 +33,7 @@ ax1.plot(l, b,alpha=1,color='steelblue',label=u'Departure times');
 # for i,(_x,_y) in enumerate(zip(l,b)):
 #     plt.text(_x,_y,b[i],color='black',fontsize=10,)  #将数值显示在图形上
 ax1.legend(loc=1)
-ax1.set_ylim([0, 8]);
+ax1.set_ylim([0, 12]);
 ax1.set_ylabel('Departure times');
 
 ax1.xaxis.set_major_locator(xmajorLocator)

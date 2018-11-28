@@ -1,4 +1,3 @@
-#python 画柱状图折线图
 #-*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
 import numpy as np
@@ -11,7 +10,7 @@ import pandas as pd
 from matplotlib.ticker import  FormatStrFormatter
 font = FontProperties(fname=r"c:\windows\fonts\simsun.ttc", size=14)
 a=[15,145,111,102,109,99,88,83,71,89,92,86,86,87,104,85,88,95,102,85,96,103,114,103,102,82,75,37]  #数据
-b=[1,10,7,7,7,7,6,6,5,6,6,6,6,6,7,6,6,6,7,6,6,7,8,7,7,5,5]
+b=[1,10,7,7,7,7,6,6,5,6,6,6,6,6,7,6,6,6,7,6,6,7,8,7,7,5,5,1]
 l=[i for i in range(28)]
 
 # plt.rcParams['font.sans-serif']=['SimHei'] #用来正常显示中文标签
@@ -27,7 +26,7 @@ lx=['7:00:00',' ',' ',' ','9:00:00',' ',' ',' ','11:00:00',' ',' ',' ','13:00:00
 
 fig = plt.figure()
 ax1 = fig.add_subplot(111)
-ax1.plot(l, b,alpha=1,color='steelblue',label=u'Departure times');
+ax1.plot(l, b,alpha=2,color='steelblue',label=u'Departure times');
 
 # ax1.yaxis.set_major_formatter(yticks)
 # for i,(_x,_y) in enumerate(zip(l,b)):
@@ -50,5 +49,5 @@ mpl.rc('xtick', labelsize=1)
 plt.legend(prop={'family':'SimHei','size':8},loc="upper left")
 plt.xticks(range(29),lx)
 # plt.xticks(rotation=180)
-plt.grid()
+# plt.grid()
 plt.show()

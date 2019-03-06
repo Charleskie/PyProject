@@ -6,7 +6,7 @@ from sklearn import preprocessing
 
 #读取数据
 
-with open('C:\\Users\\administer\Desktop\\sub.txt', 'r') as f:
+with open('C:\\Users\\administer\Desktop\\sub.txt', 'r',encoding='utf-8') as f:
     # print(f.read())
     X = []
     for v in f.readlines():

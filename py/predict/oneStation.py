@@ -1,7 +1,7 @@
 # coding=utf-8
 
 ###
-#create by william
+#create by Kim
 ###
 import pandas as pd
 import numpy as np
@@ -13,22 +13,28 @@ rnn_unit = 30  # 30  # hidden layer units
 batch_size = 60  # 60   # 每一批次训练多少个样例
 input_size = 1  # 输入层维度
 output_size = 1  # 输出层维度
-lr = 0.0006  # 学习率-
+lr = 0.0006  # 学习率
 FLAG = 'test'   # train or test
 
 # ——————————————————导入数据——————————————————————
-f=open('F:\\datasets\\stationFlow\\sjzc0607_workday')
-df=pd.read_csv(f,header=None,names=['time','name','inflow','outflow'])     #读入客流数据
-data=np.array(df['inflow'])   #获取进站数据
+# f=open('F:\\datasets\\stationFlow\\sjzc0607_workday')
+# df=pd.read_csv(f,header=None,names=['time','name','inflow','outflow'])     #读入客流数据
+
+# data=np.array(df['inflow'])   #获取进站数据
 # plt.plot(data)
 # plt.show()
 
+f=pd.read_csv("I:\weekend\part-00000")
+print(f)
+col=f.iloc[:,1]
+data=col.values
 
 normalize_data = (data - np.mean(data)) / np.std(data)  # 标准化
 normalize_data = normalize_data[:, np.newaxis]  # 增加维度
 
 data_x, data_y = [], []
 for i in range(len(normalize_data) - time_step - 1):
+    # a_week = time_step*5
     x = normalize_data[i:i + time_step]
     y = normalize_data[i + time_step]  # 用一天预测下一个5min
     data_x.append(x.tolist())
@@ -120,7 +126,7 @@ def train_lstm():
             end = start + batch_size
             print(i, loss_)
             if i % 100 == 0:
-                print("保存模型：", saver.save(sess, './savemodel_1/sjzc.ckpt'))
+                print("保存模型：", saver.save(sess, 'savemodel_1/sjzc.ckpt'))
             if end >= len(train_x):
                 start = 0
                 end = start + batch_size
@@ -136,7 +142,7 @@ def prediction():
     saver = tf.train.Saver()
     with tf.Session() as sess:
         # 参数恢复
-        module_file = './savemodel_1/sjzc.ckpt'
+        module_file = 'savemodel_1/sjzc.ckpt'
         saver.restore(sess, module_file)
         # 取测试样本,shape=[test_batch,time_step,input_size]
 
